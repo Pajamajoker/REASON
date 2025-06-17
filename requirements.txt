@@ -1,0 +1,9 @@
+numpy
+pandas
+torch
+transformers
+openai
+faiss-cpu
+sentence-transformers
+langchain
+fastapi

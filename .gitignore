@@ -1,0 +1,7 @@
+# Python virtualenvs
+venv/
+.env/
+*.egg-info/
+__pycache__/
+*.pyc
+reason_py_env/
