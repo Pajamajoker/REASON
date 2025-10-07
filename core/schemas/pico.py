@@ -20,3 +20,13 @@ class QuoteBacks(BaseModel):
     Intervention: Optional[str] = None
     Comparator: Optional[str] = None
     Outcomes: Dict[str, str] = Field(default_factory=dict)
+
+class AugmentedField(BaseModel):
+    value: str
+    synonyms: List[str] = Field(default_factory=list)
+
+class AugmentedPICO(BaseModel):
+    Population: AugmentedField
+    Intervention: AugmentedField
+    Comparator: Optional[AugmentedField] = None
+    Outcomes: List[AugmentedField] = Field(default_factory=list)
