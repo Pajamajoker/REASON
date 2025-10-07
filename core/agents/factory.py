@@ -1,10 +1,10 @@
 from __future__ import annotations
 from typing import Optional
 
-from Agents.agent import Agent
-from Agents.utils.types import GenParams
-from Agents.utils.clean import clean_reply
-from Agents.backends.vertex_predict import VertexPredictBackend
+from agents.agent import Agent
+from agents.utils.types import GenParams
+from agents.utils.clean import clean_reply
+from agents.backends.vertex_predict import VertexPredictBackend
 # from agents.backends.openai_chat import OpenAIChatBackend  # enable when needed
 
 

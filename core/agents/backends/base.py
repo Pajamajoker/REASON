@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from typing import Iterable, List, Optional, Protocol, runtime_checkable
-from Agents.utils.types import Message, GenParams, ChatResult, StreamChunk
+from agents.utils.types import Message, GenParams, ChatResult, StreamChunk
 
 
 @runtime_checkable

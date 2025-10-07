@@ -5,8 +5,8 @@ from dataclasses import dataclass
 from typing import List, Optional
 from openai import OpenAI
 
-from Agents.backends.base import ChatBackend
-from Agents.utils.types import Message, GenParams, ChatResult, StreamChunk
+from agents.backends.base import ChatBackend
+from agents.utils.types import Message, GenParams, ChatResult, StreamChunk
 
 
 @dataclass

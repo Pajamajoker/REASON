@@ -4,9 +4,9 @@ from typing import Any, List, Optional
 from urllib.parse import urlparse
 import json, socket, requests
 
-from Agents.backends.base import ChatBackend
-from Agents.utils.types import Message, GenParams, ChatResult
-from Agents.utils.auth import google_access_token
+from agents.backends.base import ChatBackend
+from agents.utils.types import Message, GenParams, ChatResult
+from agents.utils.auth import google_access_token
 
 
 def _endpoint_resource(project_id: str, location: str, endpoint_id: str) -> str:

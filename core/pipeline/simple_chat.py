@@ -1,5 +1,5 @@
 import os
-from Agents.factory import build_vertex_agent
+from agents.factory import build_vertex_agent
 
 PROJECT_ID  = os.getenv("PROJECT_ID",  "evidence-synthesis-gemma")
 LOCATION    = os.getenv("LOCATION",    "us-east1")

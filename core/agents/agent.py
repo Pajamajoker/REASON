@@ -1,8 +1,8 @@
 from __future__ import annotations
 
 from typing import Callable, List, Optional
-from Agents.backends.base import ChatBackend
-from Agents.utils.types import Message, GenParams, ChatResult
+from agents.backends.base import ChatBackend
+from agents.utils.types import Message, GenParams, ChatResult
 
 
 class Agent:
