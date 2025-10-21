@@ -1,0 +1,215 @@
+<p id="text"> Population <span id="inputTextAt12" class="modHighlight"
+                    onmouseover='highlightOnDemand(["sidebarTerm0","inputTextAt12"])'
+                    onmouseout='unhighlightOnDemand(["sidebarTerm0","inputTextAt12"])'
+            >adults</span> with <span id="inputTextAt24" class="modHighlight"
+                    onmouseover='highlightOnDemand(["sidebarTerm2","inputTextAt24"])'
+                    onmouseout='unhighlightOnDemand(["sidebarTerm2","inputTextAt24"])'
+            >septic shock</span> Intervention early <span id="inputTextAt56" class="modHighlight"
+                    onmouseover='highlightOnDemand(["sidebarTerm1","inputTextAt56"])'
+                    onmouseout='unhighlightOnDemand(["sidebarTerm1","inputTextAt56"])'
+            >norepinephrine</span> Comparator <span id="inputTextAt82" class="modHighlight"
+                    onmouseover='highlightOnDemand(["sidebarTerm3","inputTextAt82"])'
+                    onmouseout='unhighlightOnDemand(["sidebarTerm3","inputTextAt82"])'
+            >dopamine</span> Outcomes 28-day mortality </p><ol id="articles">
+    <li>Norepinephrine or dopamine for septic shock: systematic review of randomized clinical trials.
+        PMID:<a id="prc_21436167" target="_blank"
+                href="https://www.ncbi.nlm.nih.gov/pubmed/21436167?dopt=Citation"
+             >21436167</a>
+    </li>
+
+    <li>[Effectiveness of norepinephrine versus dopamine for septic shock: a meta analysis].
+        PMID:<a id="prc_24021037" target="_blank"
+                href="https://www.ncbi.nlm.nih.gov/pubmed/24021037?dopt=Citation"
+             >24021037</a>
+    </li>
+
+    <li>Practice Patterns and Outcomes Associated With Choice of Initial Vasopressor Therapy for Septic Shock.
+        PMID:<a id="prc_26079345" target="_blank"
+                href="https://www.ncbi.nlm.nih.gov/pubmed/26079345?dopt=Citation"
+             >26079345</a>
+    </li>
+
+    <li>Days alive and free as an alternative to a mortality outcome in pivotal vasopressor and septic shock trials.
+        PMID:<a id="prc_29958734" target="_blank"
+                href="https://www.ncbi.nlm.nih.gov/pubmed/29958734?dopt=Citation"
+             >29958734</a>
+    </li>
+
+    <li>Association Between US Norepinephrine Shortage and Mortality Among Patients With Septic Shock.
+        PMID:<a id="prc_28322415" target="_blank"
+                href="https://www.ncbi.nlm.nih.gov/pubmed/28322415?dopt=Citation"
+             >28322415</a>
+    </li>
+
+    <li>Effect of norepinephrine on the outcome of septic shock.
+        PMID:<a id="prc_10966247" target="_blank"
+                href="https://www.ncbi.nlm.nih.gov/pubmed/10966247?dopt=Citation"
+             >10966247</a>
+    </li>
+
+    <li>Fixed-dose vasopressin compared with titrated dopamine and norepinephrine as initial vasopressor therapy for septic shock.
+        PMID:<a id="prc_15338849" target="_blank"
+                href="https://www.ncbi.nlm.nih.gov/pubmed/15338849?dopt=Citation"
+             >15338849</a>
+    </li>
+
+    <li>Dopamine versus norepinephrine in the treatment of septic shock: a meta-analysis*.
+        PMID:<a id="prc_22036860" target="_blank"
+                href="https://www.ncbi.nlm.nih.gov/pubmed/22036860?dopt=Citation"
+             >22036860</a>
+    </li>
+
+    <li>Bench-to-bedside review: Vasopressin in the management of septic shock.
+        PMID:<a id="prc_21892977" target="_blank"
+                href="https://www.ncbi.nlm.nih.gov/pubmed/21892977?dopt=Citation"
+             >21892977</a>
+    </li>
+
+    <li>Vasopressors for the Treatment of Septic Shock: Systematic Review and Meta-Analysis.
+        PMID:<a id="prc_26237037" target="_blank"
+                href="https://www.ncbi.nlm.nih.gov/pubmed/26237037?dopt=Citation"
+             >26237037</a>
+    </li>
+</ol><div id="sidebar">
+
+            <div>
+                <i class="fa fa-info fa-lg" aria-hidden="true"
+                   onmouseover='showElem("presentScope0")'
+                   onmouseout='hideElem("presentScope0")'></i>
+                <a id="sidebarTerm0"
+                   
+                       href="/record/ui?ui=D000328" target="_blank"
+                   
+                   onmouseover='highlightOnDemand(["inputTextAt12"])'
+                   onmouseout='unhighlightOnDemand(["inputTextAt12"])'
+                >Adult</a>
+                <span id="presentScope0" class="scope-note"
+                      style="display: none"
+                ><b>MeSH Scope Note</b> for Adult: A person having attained full growth or maturity. Adults are of 19 through 44 years of age. For a person between 19 and 24 years of age, YOUNG ADULT is available.</span>
+            </div>
+
+            <div>
+                <i class="fa fa-info fa-lg" aria-hidden="true"
+                   onmouseover='showElem("presentScope1")'
+                   onmouseout='hideElem("presentScope1")'></i>
+                <a id="sidebarTerm1"
+                   
+                       href="/record/ui?ui=D009638" target="_blank"
+                   
+                   onmouseover='highlightOnDemand(["inputTextAt56"])'
+                   onmouseout='unhighlightOnDemand(["inputTextAt56"])'
+                >Norepinephrine</a>
+                <span id="presentScope1" class="scope-note"
+                      style="display: none"
+                ><b>MeSH Scope Note</b> for Norepinephrine: Precursor of epinephrine that is secreted by the ADRENAL MEDULLA and is a widespread central and autonomic neurotransmitter. Norepinephrine is the principal transmitter of most postganglionic sympathetic fibers, and of the diffuse projection system in the brain that arises from the LOCUS CERULEUS. It is also found in plants and is used pharmacologically as a sympathomimetic.</span>
+            </div>
+
+            <div>
+                <i class="fa fa-info fa-lg" aria-hidden="true"
+                   onmouseover='showElem("presentScope2")'
+                   onmouseout='hideElem("presentScope2")'></i>
+                <a id="sidebarTerm2"
+                   
+                       href="/record/ui?ui=D012772" target="_blank"
+                   
+                   onmouseover='highlightOnDemand(["inputTextAt24"])'
+                   onmouseout='unhighlightOnDemand(["inputTextAt24"])'
+                >Shock, Septic</a>
+                <span id="presentScope2" class="scope-note"
+                      style="display: none"
+                ><b>MeSH Scope Note</b> for Shock, Septic: Sepsis associated with HYPOTENSION or hypoperfusion despite adequate fluid resuscitation. Perfusion abnormalities may include but are not limited to LACTIC ACIDOSIS; OLIGURIA; or acute alteration in mental status.</span>
+            </div>
+
+            <div>
+                <i class="fa fa-info fa-lg" aria-hidden="true"
+                   onmouseover='showElem("presentScope3")'
+                   onmouseout='hideElem("presentScope3")'></i>
+                <a id="sidebarTerm3"
+                   
+                       href="/record/ui?ui=D004298" target="_blank"
+                   
+                   onmouseover='highlightOnDemand(["inputTextAt82"])'
+                   onmouseout='unhighlightOnDemand(["inputTextAt82"])'
+                >Dopamine</a>
+                <span id="presentScope3" class="scope-note"
+                      style="display: none"
+                ><b>MeSH Scope Note</b> for Dopamine: One of the catecholamine NEUROTRANSMITTERS in the brain. It is derived from TYROSINE and is the precursor to NOREPINEPHRINE and EPINEPHRINE. Dopamine is a major transmitter in the extrapyramidal system of the brain, and important in regulating movement. A family of receptors (RECEPTORS, DOPAMINE) mediate its action.</span>
+            </div>
+
+            <hr><b>Additional Terms</b><br>
+
+                <div>
+                    <i class="fa fa-info fa-lg" aria-hidden="true"
+                       onmouseover='showElem("relatedScope0")'
+                       onmouseout='hideElem("relatedScope0")'></i>
+                    
+                        <a href="/record/ui?ui=D006801"
+                           target="_blank">
+                    
+                    Humans
+                    </a>
+                    <span id="relatedScope0" class="scope-note"
+                          style="display: none"
+                    ><b>MeSH Scope Note</b> for Humans: Members of the species Homo sapiens.</span>
+                </div>
+
+                <div>
+                    <i class="fa fa-info fa-lg" aria-hidden="true"
+                       onmouseover='showElem("relatedScope1")'
+                       onmouseout='hideElem("relatedScope1")'></i>
+                    
+                        <a href="/record/ui?ui=D014662"
+                           target="_blank">
+                    
+                    Vasoconstrictor Agents
+                    </a>
+                    <span id="relatedScope1" class="scope-note"
+                          style="display: none"
+                    ><b>MeSH Scope Note</b> for Vasoconstrictor Agents: Drugs used to cause constriction of the blood vessels.</span>
+                </div>
+
+</div><pre id="download">-- MeSH Terms --
+
+Adult
+
+Norepinephrine
+
+Shock, Septic
+
+Dopamine
+
+
+-- Relevant MeSH Terms --
+
+Humans
+
+Vasoconstrictor Agents
+
+
+-- PubMed/MEDLINE Similar Citations --
+
+21436167:  Norepinephrine or dopamine for septic shock: systematic review of randomized clinical trials.
+
+24021037:  [Effectiveness of norepinephrine versus dopamine for septic shock: a meta analysis].
+
+26079345:  Practice Patterns and Outcomes Associated With Choice of Initial Vasopressor Therapy for Septic Shock.
+
+29958734:  Days alive and free as an alternative to a mortality outcome in pivotal vasopressor and septic shock trials.
+
+28322415:  Association Between US Norepinephrine Shortage and Mortality Among Patients With Septic Shock.
+
+10966247:  Effect of norepinephrine on the outcome of septic shock.
+
+15338849:  Fixed-dose vasopressin compared with titrated dopamine and norepinephrine as initial vasopressor therapy for septic shock.
+
+22036860:  Dopamine versus norepinephrine in the treatment of septic shock: a meta-analysis*.
+
+21892977:  Bench-to-bedside review: Vasopressin in the management of septic shock.
+
+26237037:  Vasopressors for the Treatment of Septic Shock: Systematic Review and Meta-Analysis.
+
+
+-- Input Text --
+
+ Population adults with septic shock Intervention early norepinephrine Comparator dopamine Outcomes 28-day mortality 
+</pre>
