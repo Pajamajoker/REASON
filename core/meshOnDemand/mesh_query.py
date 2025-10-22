@@ -1,7 +1,7 @@
 import requests
 from pathlib import Path
 import json
-from core.meshOnDemand.mesh_utils.mesh_response_parser import extract_from_pre_block
+from core.meshOnDemand.mesh_utils.mesh_response_parser import extract_from_pre_block, build_mesh_query
 
 json_query = {
   "qid": "6e5487fd37ad",
@@ -78,11 +78,21 @@ def query_mesh_api(pico_json=json_query):
         base = Path(__file__).resolve().parent
         (base.parent / "artifacts_day3" / f"mesh_{pico_json['qid']}.txt").write_text(response.text, encoding="utf-8")
         mesh_response = extract_from_pre_block(response.text)
+        mesh_response['qid'] = pico_json['qid']
         (base.parent / "artifacts_day3" / f"mesh_parsed{pico_json['qid']}.json").write_text(json.dumps(mesh_response, ensure_ascii=False, indent=2), encoding="utf-8")
+
+        mesh_query = build_mesh_query(mesh_response['mesh_terms']+mesh_response['relevant_mesh_terms'])
+        print(mesh_query)
+        temp_dict = {"qid": pico_json['qid'], "mesh_query": mesh_query}
+        (base.parent / "artifacts_day3" / f"mesh_query.jsonl").write_text(
+            json.dumps(temp_dict, ensure_ascii=False) + "\n",
+            encoding="utf-8"
+        )   
+
         return response.text
     else:
         response.raise_for_status()
 
 if __name__ == "__main__":
     result = query_mesh_api()
-    print(result)
+    # print(result)

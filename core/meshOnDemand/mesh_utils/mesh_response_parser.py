@@ -24,3 +24,6 @@ def extract_from_pre_block(text):
     
 
     return {"mesh_terms": mesh_terms, "relevant_mesh_terms": relevant_mesh_terms, "pmid_entries": pmid_entries}
+
+def build_mesh_query(mesh_terms, operator="OR"):
+    return f" {operator} ".join([f'"{term}"[MeSH Terms]' for term in mesh_terms])
