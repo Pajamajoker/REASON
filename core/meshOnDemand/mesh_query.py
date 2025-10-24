@@ -84,10 +84,8 @@ def query_mesh_api(pico_json=json_query):
         mesh_query = build_mesh_query(mesh_response['mesh_terms']+mesh_response['relevant_mesh_terms'])
         print(mesh_query)
         temp_dict = {"qid": pico_json['qid'], "mesh_query": mesh_query}
-        (base.parent / "artifacts_day3" / f"mesh_query.jsonl").write_text(
-            json.dumps(temp_dict, ensure_ascii=False) + "\n",
-            encoding="utf-8"
-        )   
+        with open(base.parent / "artifacts_day3" / "mesh_query.jsonl", "a", encoding="utf-8") as f:
+          f.write(json.dumps(temp_dict, ensure_ascii=False) + "\n")  
 
         pubmed_response = query_pubmed_api(mesh_query)
         pubmed_response['qid'] = pico_json['qid']
