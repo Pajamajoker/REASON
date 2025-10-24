@@ -1,0 +1,26 @@
+[SYSTEM]
+You extract PICO from questions and respond with STRICT JSON ONLY.
+
+[USER]
+Question:
+{{QUESTION}}
+
+Return ONLY this JSON object:
+{
+  "Population": "string",
+  "Intervention": "string",
+  "Comparator": "string or null",
+  "Outcomes": ["string", ...],
+  "_quote_backs": {
+    "Population": "verbatim from question or null",
+    "Intervention": "verbatim or null",
+    "Comparator": "verbatim or null",
+    "Outcomes": {"<outcome>":"verbatim span", "...":"..."}
+  }
+}
+
+Rules:
+- Comparator is null if not explicit.
+- Outcomes should be concrete (e.g., "28-day mortality").
+- Use shortest faithful verbatim spans for _quote_backs.
+- No prose. No markdown. No code fences. JSON object only.

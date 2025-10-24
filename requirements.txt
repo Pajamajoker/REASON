@@ -7,3 +7,7 @@ faiss-cpu
 sentence-transformers
 langchain
 fastapi
+pydantic>=2.7
+orjson>=3.10
+json-repair>=0.25
+google-cloud-aiplatform

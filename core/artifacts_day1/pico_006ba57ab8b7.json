@@ -1,0 +1,39 @@
+{
+  "qid": "006ba57ab8b7",
+  "created_at": "2025-10-07T00:19:26Z",
+  "question": "In adults with septic shock, does early norepinephrine reduce 28-day mortality versus dopamine?",
+  "pico_raw": {
+    "Population": "adults with septic shock",
+    "Intervention": "early norepinephrine",
+    "Comparator": "dopamine",
+    "Outcomes": [
+      "28-day mortality"
+    ],
+    "_quote_backs": {
+      "Population": "insects with septic shock",
+      "Intervention": "early norepinephrine",
+      "Comparator": "dopamine",
+      "Outcomes": {
+        "28-day mortality": "verbatim span"
+      }
+    }
+  },
+  "pico_valid": {
+    "Population": "adults with septic shock",
+    "Intervention": "early norepinephrine",
+    "Comparator": "dopamine",
+    "Outcomes": [
+      "28-day mortality"
+    ]
+  },
+  "quotes": {
+    "Population": "insects with septic shock",
+    "Intervention": "early norepinephrine",
+    "Comparator": "dopamine",
+    "Outcomes": {
+      "28-day mortality": "verbatim span"
+    }
+  },
+  "model": "gemma-3 via Vertex",
+  "temperature": 0.1
+}
