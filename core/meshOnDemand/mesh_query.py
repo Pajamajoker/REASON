@@ -2,9 +2,9 @@ import requests
 from pathlib import Path
 import json
 from core.meshOnDemand.mesh_utils.mesh_response_parser import extract_from_pre_block, build_mesh_query
-
+from core.pubmedSearch.pubmedApiSearch import query_pubmed_api
 json_query = {
-  "qid": "6e5487fd37ad",
+  "qid": "6d5487fd37ad",
   "created_at": "2025-10-07T00:32:09Z",
   "pico_valid": {
     "Population": "adults with septic shock",
@@ -89,6 +89,12 @@ def query_mesh_api(pico_json=json_query):
             encoding="utf-8"
         )   
 
+        pubmed_response = query_pubmed_api(mesh_query)
+        pubmed_response['qid'] = pico_json['qid']
+        (base.parent / "artifacts_day3" / f"pubmed_parsed{pico_json['qid']}.json").write_text(
+            json.dumps(pubmed_response, ensure_ascii=False) + "\n",
+            encoding="utf-8"
+        )
         return response.text
     else:
         response.raise_for_status()

@@ -1,5 +1,6 @@
 
 import requests
+
 def query_pubmed_api(mesh_query):   
     """
     Queries the PubMed API with the given MeSH query and returns the response.
