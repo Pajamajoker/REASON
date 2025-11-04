@@ -1,0 +1,55 @@
+{
+  "mesh_terms": [
+    "Adult",
+    "Norepinephrine",
+    "Shock, Septic",
+    "Dopamine"
+  ],
+  "relevant_mesh_terms": [
+    "Humans",
+    "Vasoconstrictor Agents"
+  ],
+  "pmid_entries": [
+    {
+      "PMID": "21436167",
+      "Title": "Norepinephrine or dopamine for septic shock: systematic review of randomized clinical trials."
+    },
+    {
+      "PMID": "24021037",
+      "Title": "[Effectiveness of norepinephrine versus dopamine for septic shock: a meta analysis]."
+    },
+    {
+      "PMID": "26079345",
+      "Title": "Practice Patterns and Outcomes Associated With Choice of Initial Vasopressor Therapy for Septic Shock."
+    },
+    {
+      "PMID": "29958734",
+      "Title": "Days alive and free as an alternative to a mortality outcome in pivotal vasopressor and septic shock trials."
+    },
+    {
+      "PMID": "28322415",
+      "Title": "Association Between US Norepinephrine Shortage and Mortality Among Patients With Septic Shock."
+    },
+    {
+      "PMID": "10966247",
+      "Title": "Effect of norepinephrine on the outcome of septic shock."
+    },
+    {
+      "PMID": "15338849",
+      "Title": "Fixed-dose vasopressin compared with titrated dopamine and norepinephrine as initial vasopressor therapy for septic shock."
+    },
+    {
+      "PMID": "22036860",
+      "Title": "Dopamine versus norepinephrine in the treatment of septic shock: a meta-analysis*."
+    },
+    {
+      "PMID": "21892977",
+      "Title": "Bench-to-bedside review: Vasopressin in the management of septic shock."
+    },
+    {
+      "PMID": "26237037",
+      "Title": "Vasopressors for the Treatment of Septic Shock: Systematic Review and Meta-Analysis."
+    }
+  ],
+  "qid": "6e5487fd37ad"
+}
